@@ -129,7 +129,7 @@ document.querySelector('.buttons').onclick = (event) => {
                     a = (+a) * b/100 || (+a)/100 ;
                     break;
                 case '+/-':
-                        a = (((+a) * (+b)) * (-1) || ((+a) - (+b)) * (-1) || ((+a) + (+b)) * (-1));
+                        a = -1 * a;
                       break;
             }
             out.textContent = a;
